@@ -1,0 +1,22 @@
+/*
+    ドットインストール  CSS入門 #19 display:tableを使ってみよう
+    dispaly: table
+*/
+
+.gray {
+    background: gray;}
+.silver {
+    background: silver;}
+.orange {
+    background: orange;}
+/*makeDisplayTableBeforeのようになる*/
+
+.container {
+    display: table;
+    width:300px;
+}
+
+.box {
+    display: table-cell;
+    width: 100px;
+}

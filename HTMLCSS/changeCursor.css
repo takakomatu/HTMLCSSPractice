@@ -1,0 +1,20 @@
+/*
+    ドットインストール CSS入門 #15 list-styleでリストのスタイルを変えよう
+     CSS入門 #16 cursorでカーソルの形状を変えよう
+        cursor
+*/
+.help {
+    cursor: help;
+}
+.dragme {
+    cursor: move;
+}
+.clickme {
+    cursor: pointer;
+}
+.smile {
+    cursor: url('../CSS/akazukin.png'),
+    auto;
+}
+
+

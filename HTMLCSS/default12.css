@@ -1,0 +1,27 @@
+/*
+    WARNING ** Offset of Margin
+margin-top: 10px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+margin:
+    all
+    top/bottom right/left
+    top right/left bottom
+    top right bottom left
+*/
+body {
+    margin:0;
+}/*margin in body gonna disappear*/
+div#box1 {
+    background: red;
+    margin: 20px 200px 400px /*20 for top, 200 for right and left, 400 for bottom */
+}
+div#box2 { /*you might think the pixels between box1 and 2 are 400+200=600 but actually the pixels are just the bigger number which is in this case, 400*/
+    /*if you change 200 to 1 the pixels between box1 and 2 wont change. This is called offset of margin, É}Å[ÉWÉìÇÃëäéE */
+    background: blue;
+    margin: 300px
+    /*20 for right and left*/
+}
+
+

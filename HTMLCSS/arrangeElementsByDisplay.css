@@ -1,0 +1,29 @@
+/*
+    ドットインストール  CSS入門 #18 displayで要素の配置方法を変えよう
+
+    display
+    - block
+    - inline
+    - list-item
+    - inline-block
+    -none
+*/
+h1, p, span, a {/*only span and a will be in the same one line not for h1 and p
+                    if we want p to be also in the same one line do the following
+                */
+    border: 1px solid #ddd;
+}
+
+p, h1, span, a {
+    width: 120px; /*this width will be invalid to make it valid use inline-block not inline*/
+    display: inline;/*inline all elements will be in the same one line
+    /*display: inline-block;*/
+}
+/*if you want to hide "hey"*/
+h2{
+    display: none;
+}
+
+
+
+

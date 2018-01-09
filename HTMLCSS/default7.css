@@ -1,0 +1,36 @@
+/*
+セレクタ
+詳細度
+    (a) style=""
+    (b) id
+    (c) 属性/擬似クラス
+    (d)　要素/擬似要素
+*/
+/*0, 0, 0, 1 */
+a {
+    color: skyblue;
+}
+/*0, 0, 1, 1 By adding link class, 0→1*/
+    a.link {
+        color: red;
+    }
+/*a should be red cuz 0, 0, 1, 1 will have the priority*/
+
+/*0, 0, 1, 1 By adding search class, 0→1*/
+    a.search {
+        color: green;
+    }/*a should be green cuz green appear later*/
+
+    /*0, 1, 0, 1 By adding site id, 0→1*/
+    a#site {
+        color: gold;
+    }
+    /*1, 1, 0, 1 By adding style to HTML file, 0→1*/
+    a#site {
+        color: black;
+    }
+/*0, 0, 0, 1 but by adding !important this has the priority
+dont abuse this too much*/
+a {
+    color: skyblue !important;
+}

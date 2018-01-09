@@ -1,0 +1,17 @@
+/*
+box model
+Take a look at the image from index9
+*/
+body, html {/*the parents of h3 are body and html*/
+    height: 100%;
+}
+h2 {
+    background: red;
+    width: 200px;
+    height: 100px;
+}
+h3 {
+    background: red;
+    width: 50%; /*half of the screen*/
+    height: 50%;/*Only having this wont work gotta say the parent elements have height: 100%*/
+}

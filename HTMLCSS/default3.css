@@ -1,0 +1,26 @@
+/*
+
+ƒZƒŒƒNƒ^
+
+a, b
+a b
+a > b
+a + b
+*/
+
+h1, p { /*all h1&p will be skyblue*/
+    color: skyblue;
+}
+
+div span { /*div‚Ì‰º‚É‚ ‚éspan‚·‚×‚Ä*/
+    color: skyblue;
+}
+div > span { /*div‚Ì’¼‰º‚É‚ ‚éspan‚·‚×‚Ä*/
+    color: green;
+}
+p + p { /*p‚ÌŽŸ‚É‚ ‚ép‚·‚×‚Ä*/
+    color: violet;
+}
+p.points {
+    color: red;
+}

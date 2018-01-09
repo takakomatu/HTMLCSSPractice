@@ -1,0 +1,20 @@
+/*
+    ドットインストール CSS入門 #17 backgroundで背景スタイルを変えよう
+*/
+body {
+    background-color: blue;
+    background-image: url('../CSS/akazukin.png');
+    /*background imageはデフォルトで敷き詰められていくがいやだったら以下*/
+    background-repeat: no-repeat; /*display only one akazukin*/
+    /*background-repeat: repeat-x;*/ /*only first row theres reapeat-y*/
+    /*background-position: 100px 10px;*/ /*100 for row, 10 for column*/
+    background-position: top center;
+    background-attachment: scroll; /*image will follow you as you scroll*/
+    /*background-attachment: fixed;*/ /*the image will be fixed in top center*/
+    /*若しは*/
+    /*background: url('../CSS/akazukin.png') no-repeat
+     scroll;
+    */
+}
+
+

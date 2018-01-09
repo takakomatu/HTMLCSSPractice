@@ -1,0 +1,16 @@
+/*
+
+属性セレクタ
+
+
+*/
+a[title] { /*aタグの中のtitle属性に色*/
+    color: violet;
+}
+a[href="http://google.com"] { /*aタグの中のhref="http://google.com"属性に色*/
+    color: red;
+}
+
+a[class~="search"] { /*aタグの中のclass属性にサーチが含まれているものに色 ~の書き忘れに注意*/
+    color: green;
+}

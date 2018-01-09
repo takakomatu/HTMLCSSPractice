@@ -1,0 +1,24 @@
+/*
+    ドットインストール CSS入門 #15 list-styleでリストのスタイルを変えよう
+
+    list
+    - list-style-type: disc for 黒丸/circle for 白丸/ square for四角
+        decimal for 1. 2. 3. .../lower-alpha for abc...
+    - list-style-image:
+    -list-style-position: inside/outside (the default setting is outside)
+    　the markers will be inside/outside (markers are a. b. 1. 2. ...
+        and if inside 1. will be included in the sentense. if outside
+        1. 2. ... will be excluded from the sentense)
+    - list-style:
+*/
+ul {
+    /*list-style: inside decimal;*/
+    /*list-style: outside lower-alpha;*/
+    list-style: url('../CSS/akazukin.png')
+    circle;
+    /*白丸(circle) will not appear cuz list-style is alreay for url
+        once list-style is for something the one later wont be adopted
+    */
+}
+
+

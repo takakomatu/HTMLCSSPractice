@@ -1,0 +1,28 @@
+/*
+セレクタ
+擬似セレクタ
+
+
+*/
+ul li:first-child {/*the first li in ul tag*/
+color:violet;
+}
+a:link { /*for the first visitor,　a tagに対し write link という擬似クラス*/
+    color: blue;
+}
+a:visited { /*for the visitor who has already visited the site,　a tagに対し write visited という擬似クラス*/
+    color: orange;
+}
+a:hover { /*if the mouse is on the link,　a tagに対し write hover という擬似クラス*/
+    color: pink;
+}
+a:active { /*when the mouse clicked the link,　a tagに対し write active という擬似クラス*/
+    color: red;
+}
+/*mouseに関する擬似クラスは必ずこの順番どおりにする
+    If you disorder these order, it might go as you dont intend.
+*/
+
+input:focus { /*ある要素にフォーカスがあたったときにスタイルを当てる擬似クラス*/
+    background: green;
+}

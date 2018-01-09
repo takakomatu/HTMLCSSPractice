@@ -1,0 +1,8 @@
+/*
+    ドットインストール  CSS入門 #18 displayで要素の配置方法を変えよう
+*/
+h1, p, span, a {
+    border: 1px solid #ddd;
+}
+
+

@@ -1,0 +1,12 @@
+/*
+
+ƒZƒŒƒNƒ^
+
+a, b
+a b
+a > b
+a + b
+ab
+*/
+
+h1, p, div{color: skyblue;}/*all h1&p will be skyblue*/

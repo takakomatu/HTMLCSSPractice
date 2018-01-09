@@ -1,0 +1,40 @@
+/*
+value
+    - length
+        - px(pixel)
+        - em(how many words)
+        -%()
+    - color
+        -by its name
+        -Red 0-f / 00-ff / 0-255 / 0%-100%
+        -Green 0-f / 00-ff / 0-255 / 0%-100%
+        -Blue 0-f / 00-ff / 0-255 / 0%-100%
+*/
+
+body {
+    font-size: 16px;
+}
+
+a {
+    font-size: 2em;
+}
+/*this is equivalent to 32 px 16*2=32*/
+h2 {
+    font-size: 150%;
+}
+/*this is equivalent to 24 px 16*1.5=24*/
+h3 {
+color: #00f;
+}/*this will be blue cuz 0 for red 0 for green, full for blue*/
+h4 {
+    color: #0000ff;
+}
+/*this will be blue cuz 00 for red 00 for green, fullfull for blue*/
+h5 {
+    color: rgb(0,0,255);
+}
+/*this will be blue */
+h6 {
+    color: rgb(0%,0%,100%);
+}
+/*this will be blue*/

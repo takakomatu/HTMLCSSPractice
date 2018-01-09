@@ -1,0 +1,30 @@
+/*
+    ドットインストール #14 文字に関するプロパティを使ってみよう
+text
+    -color: orange;
+    -font-size: 14px;
+    -font-family: Arial, Heletica;
+    -font-weight: bold/normal
+    -text-align: right/center/left;
+    -text-decoration: underline/line-throught
+*/
+body {
+    margin:0;
+}
+div#box1 {
+    color: red;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline line-through;
+    /*underline and line-through for 打ち消し線*/
+}
+div#box2 { /*you might think the pixels between box1 and 2 are 400+200=600 but actually the pixels are just the bigger number which is in this case, 400*/
+    /*if you change 200 to 1 the pixels between box1 and 2 wont change. This is called offset of margin, マージンの相殺 */
+    background: blue;
+    margin: 300px
+    /*20 for right and left*/
+}
+
+

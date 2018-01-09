@@ -1,0 +1,33 @@
+/*
+    セレクタ{
+        プラパティ名: 値;
+    }    単数の場合
+
+    セレクタ{
+        プラパティ名: 値;
+        プラパティ名: 値;
+        プラパティ名: 値;
+        プラパティ名: 値;
+    }　複数の場合
+
+    *はユニバーサル
+*/
+div {
+    color: skyblue;
+}
+/*
+    *{color: red;}
+    すべての要素が赤
+*/
+h1 {
+    color: violet;
+}
+#first {
+    color: orange;
+}
+.points {
+    color: green;
+}
+.point2 {
+    color: red;
+}

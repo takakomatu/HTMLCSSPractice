@@ -1,0 +1,19 @@
+/*
+ƒZƒŒƒNƒ^
+‹[——v‘f
+
+
+*/
+p:first-line {/*the first line in p tag*/
+color:violet;
+}
+div:first-letter { /*for the first LETTER in div tag*/
+    color: blue;
+}
+p:before { /*add --> before p*/
+    content: "-->";
+}
+p:after { /*add <-- after p*/
+    content: "<--";
+}
+
